@@ -2,7 +2,8 @@
 public class InfoApp {
 
 	public static void main(String[] args) {
-		System.out.println("Team x member list:");
+		InfoPrintAlmari m = new InfoPrintAlmari();
+		System.out.print(m.getName("Mohammed Almari"));
 
 	}
 
